@@ -1,0 +1,150 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+}
+.P-space {
+text-align: center;
+display: block;
+padding: 10px;
+font-weight: bold;
+
+}
+
+  header {
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    background-color:#9699d1;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+  
+  
+  #navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 20px;
+    
+  }
+  
+ 
+  #navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    color: #ffff;
+    
+  }
+
+  #navbar a:hover {
+    color: rgb(245, 232, 121);
+
+  }
+
+  
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0d4f1;
+}
+
+.title-1{
+    text-align: center;
+
+}
+
+.title-2{
+    text-align: center;
+}
+.projects {
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project-tile {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.project-tile img {
+    max-width: 100%;
+}
+
+.project-tile a {
+    color: #9699d1;
+    font-size: 26px; 
+   
+}
+.project-tile a:hover{
+    color: rgb(245, 232, 121);;
+}
+@media screen and (max-width: 768px) {
+    .projects {
+        grid-template-columns: 1fr; 
+    }
+}
+
+
+#profile {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #d0d4f1;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(91, 199, 235);
+  
+}
+
+#profile-link{
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(91, 199, 235);
+
+}
+.social-icon:hover{
+    color: rgb(245, 232, 121);
+   
+}
+#profile-link:hover{
+    color: rgb(245, 232, 121);
+
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #9699d1;
+    color: white;
+}
